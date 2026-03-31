@@ -1,0 +1,24 @@
+{
+  "service_name": "svc-pipe-blockage-risk",
+  "level": "light",
+  "host_port": 6003,
+  "container_port": 6000,
+  "window_size": 12,
+  "workload_repeat": 6,
+  "inner_iters": 90000,
+  "feature_dim": 12,
+  "feature_cols": [
+    "rain_intensity_mmph",
+    "flow_m3s",
+    "temp_C",
+    "pH",
+    "DO_mgL",
+    "EC_uScm",
+    "COD_mgL",
+    "NH3N_mgL",
+    "TN_mgL",
+    "TP_mgL",
+    "TSS_mgL",
+    "turbidity_NTU"
+  ]
+}
