@@ -1,0 +1,86 @@
+[
+  {
+    "service_name": "svc-flow-anomaly",
+    "host_port": 6000,
+    "container_port": 6000,
+    "level": "medium",
+    "window_size": 12
+  },
+  {
+    "service_name": "svc-nh3n-risk",
+    "host_port": 6001,
+    "container_port": 6000,
+    "level": "light",
+    "window_size": 12
+  },
+  {
+    "service_name": "svc-node-health",
+    "host_port": 6002,
+    "container_port": 6000,
+    "level": "light",
+    "window_size": 12
+  },
+  {
+    "service_name": "svc-pipe-blockage-risk",
+    "host_port": 6003,
+    "container_port": 6000,
+    "level": "light",
+    "window_size": 12
+  },
+  {
+    "service_name": "svc-water-quality-anomaly",
+    "host_port": 6004,
+    "container_port": 6000,
+    "level": "medium",
+    "window_size": 24
+  },
+  {
+    "service_name": "svc-cod-prediction",
+    "host_port": 6005,
+    "container_port": 6000,
+    "level": "medium",
+    "window_size": 24
+  },
+  {
+    "service_name": "svc-turbidity-prediction",
+    "host_port": 6006,
+    "container_port": 6000,
+    "level": "medium",
+    "window_size": 24
+  },
+  {
+    "service_name": "svc-sludge-state-estimation",
+    "host_port": 6007,
+    "container_port": 6000,
+    "level": "medium",
+    "window_size": 24
+  },
+  {
+    "service_name": "svc-contamination-trace",
+    "host_port": 6008,
+    "container_port": 6000,
+    "level": "heavy",
+    "window_size": 48
+  },
+  {
+    "service_name": "svc-multi-sensor-fusion",
+    "host_port": 6009,
+    "container_port": 6000,
+    "level": "heavy",
+    "window_size": 48
+  },
+  {
+    "service_name": "svc-emergency-event-assessment",
+    "host_port": 6010,
+    "container_port": 6000,
+    "level": "heavy",
+    "window_size": 48
+  },
+  {
+    "service_name": "svc-pump-load-forecast",
+    "host_port": 6011,
+    "container_port": 6000,
+    "level": "heavy",
+    "window_size": 48
+  }
+]

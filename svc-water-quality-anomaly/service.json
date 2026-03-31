@@ -1,0 +1,24 @@
+{
+  "service_name": "svc-water-quality-anomaly",
+  "level": "medium",
+  "host_port": 6004,
+  "container_port": 6000,
+  "window_size": 24,
+  "workload_repeat": 12,
+  "inner_iters": 180000,
+  "feature_dim": 12,
+  "feature_cols": [
+    "rain_intensity_mmph",
+    "flow_m3s",
+    "temp_C",
+    "pH",
+    "DO_mgL",
+    "EC_uScm",
+    "COD_mgL",
+    "NH3N_mgL",
+    "TN_mgL",
+    "TP_mgL",
+    "TSS_mgL",
+    "turbidity_NTU"
+  ]
+}
